@@ -48,9 +48,9 @@ Gem::Specification.new do |s|
   s.add_dependency('mime-types')
   s.add_dependency('net-scp', '~>1.1')
   s.add_dependency('net-ssh', '>=2.1.3')
-  s.add_dependency('nokogiri', '~>1.5')
   s.add_dependency('ruby-hmac')
   s.add_dependency('unicode', "~> 0.4.4")
+  s.add_dependency('nokogiri', '>=1.5.0')
 
   ## List your development dependencies here. Development dependencies are
   ## those that are only needed during development
